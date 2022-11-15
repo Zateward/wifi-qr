@@ -1,0 +1,26 @@
+.html {
+	background: black;
+}
+
+.center {
+	margin: auto;
+	width: 70%;
+	border: 3px solid blue;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+/*p {	
+	margin: auto;
+	width: 70%;
+	border: 3px solid blue;
+	padding: 10px;
+	color: white;
+	text-align: left;
+}*/
+
+img {
+	display: block;
+	width: 20%;
+}

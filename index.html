@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="html">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WI-FI QR-code</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="center" style="text-align: center;">~~ WIFI QR-code generator ~~</h1>
+	<br>
+	<form class="center">
+		<div>
+			<label for="ssid">Enter your SSID: </label>
+			<input id="ssid" type="text" name="ssid" placeholder="Enter your SSID">
+		</div>
+		<br>
+		<div>
+			<label for="password">Enter your Password: </label>
+			<input id="password" type="password" name="password" placeholder="Enter your WI-FI password">
+		</div>
+		<br>
+		<div>
+		<label for="encription">Choose your WI-FI encription: </label>
+		<select id="encription">
+			<option value="none" selected disabled hidden>Select an Option</option>
+			<option value="WEP">WEP</option>
+			<option value="WPA">WPA/WPA2</option>
+		</select>
+		</div>
+		<br>
+		<label for="hidden" style="">Your network is hidden?</label>
+		<input type="checkbox" name="hidden" id="hidden">
+		<br>
+		<br>
+		<input id="submit" type="submit" name="submit">
+	</form>
+
+	<br>
+
+	<div class="center">
+		<img id="qrImg" style="margin-left" >
+		<p id="status">Click submit to generate your WIFI QR-code!</p>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
