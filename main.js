@@ -6,10 +6,6 @@ const submitBtn = document.querySelector('#submit');
 const hiddenNet = document.querySelector('#hidden');
 const qrImg = document.querySelector('#qrImg');
 
-ssid.defaultValue = 'RANSOMWARE.EXE';
-password.defaultValue = 'trenora2020';
-// hiddenNet.setAttribute('checked', 'true');
-
 const downloadFile = (url) => {
   const element = document.createElement('a');
   element.setAttribute('href', 'Download Btn');
